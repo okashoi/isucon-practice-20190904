@@ -9,6 +9,7 @@ sudo systemctl stop mariadb
 
 # ログ消す
 sudo rm -f /var/log/mariadb/mariadb.log
+sudo rm -f /var/log/mariadb/slow.log
 sudo rm -f /var/log/h2o/*
 
 sudo systemctl daemon-reload
